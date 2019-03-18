@@ -1,0 +1,10 @@
+User-agent: Yandex
+Disallow: /css/
+Disallow: /fonts/
+Host: ivanzagainov.tk
+Sitemap: http://ivanzagainov.tk/sitemap.xml
+
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Sitemap: http://ivanzagainov.tk/sitemap.xml

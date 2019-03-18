@@ -1,0 +1,28 @@
+.header {
+  min-height: 25vh;
+  color: #fff;
+  //background: $bgblue url('../img/header_mine.jpg') no-repeat center top fixed
+  background: $bgblue;
+
+  &-logo {
+    text-align: right;
+    padding: 3vh;
+    text-transform: uppercase;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  &-row {
+    margin: 10vh 0;
+  }
+
+  i {
+    font-size: 3em;
+  }
+
+  &-col__bold {
+    font-weight: 700;
+  }
+}

@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^3.7.0",
     "blazy": "^1.8.2",
     "d": "^1.0.0",
     "gulp-replace": "^1.0.0",

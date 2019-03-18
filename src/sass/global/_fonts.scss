@@ -6,3 +6,19 @@
 //   normal,
 //   woff woff2 
 // );
+
+@include font-face( 
+  "OpenSans-Light",
+  "../fonts/OpenSans-Light/OpenSans-Light",
+  400,
+  normal,
+  woff woff2 
+);
+
+@include font-face( 
+  "OpenSans-Bold",
+  "../fonts/OpenSans-Bold/OpenSans-Bold",
+  700,
+  normal,
+  woff woff2 
+);
