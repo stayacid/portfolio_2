@@ -1,0 +1,30 @@
+#pages-22.pages
+  #toogle-23.pages-header
+    p Навигация страниц верстки
+    span GP
+    i#close-24.icon-pages
+
+script.
+  var pages = {
+    'ГЛАВНАЯ': './',
+    'UI': 'ui.html',
+  };
+  createList(pages);
+
+  var pagesHeader = document.querySelector('#toogle-23');
+  pagesHeader.addEventListener('click', function (event) {
+    event.preventDefault();
+    document.querySelector('#pages-22').classList.toggle('open');
+  });
+
+  function createList(pages) {
+    var ulElement = document.createElement('UL');
+    for (var key in pages) {
+      var liElement = document.createElement('LI');
+      liElement.innerHTML = `<a href="${pages[key]}">${key}</a>`;
+      ulElement.appendChild(liElement);
+    }
+    document.querySelector('#pages-22').appendChild(ulElement);
+  }
+
+

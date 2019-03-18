@@ -1,0 +1,22 @@
+@import "libs";
+
+@import "global/helpers/helpers";
+
+@import "global/mixins/mixins";
+
+@import "global/components/components";
+
+@import "global/modals/modals";
+
+@import "global/sprite/sprite";
+@import "global/sprite/css-sprite.css";
+
+@import "global/base";
+@import "global/header";
+@import "global/footer";
+@import "global/typography";
+@import "global/container";
+@import "global/fonts";
+
+@import "pages/index/first-screen";
+

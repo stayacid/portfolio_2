@@ -1,0 +1,1 @@
+//folder for dinamic content images, like news, gallery
