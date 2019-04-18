@@ -1,4 +1,19 @@
 .container {
+  position: relative;
+  width: 100%;
   max-width: $max-width;
-  margin: auto;
+  padding: 0 20px;
+  margin: auto; 
+
+  @include mq('tablet') {
+    padding: 0 50px;
+  }
+  
+  @include mq('laptop') {
+    padding: 0 90px;
+  }
+
+  @include mq('desltop') {
+    padding: 0 140px;
+  }
 }

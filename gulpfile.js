@@ -75,13 +75,14 @@ gulp.task('scripts:libs', function () {
     return gulp.src(
         [
             'node_modules/jquery/dist/jquery.min.js',
-            //'node_modules/jquery-validation/dist/jquery.validate.min.js',
-            //'node_modules/slick-carousel/slick/slick.min.js',
-            //'node_modules/object-fit-images/dist/ofi.min.js',
-            // 'node_modules/imask/dist/imask.min.js',
+            'node_modules/object-fit-images/dist/ofi.min.js',
             'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
             'node_modules/wowjs/dist/wow.min.js',
-            //'node_modules/blazy/blazy.min.js'
+            'node_modules/svg4everybody/dist/svg4everybody.min.js',
+            'node_modules/blazy/blazy.min.js'
+            //'node_modules/jquery-validation/dist/jquery.validate.min.js',
+            //'node_modules/slick-carousel/slick/slick.min.js',
+            // 'node_modules/imask/dist/imask.min.js',
         ]
     )
         .pipe(glp.concat('libs.min.js'))

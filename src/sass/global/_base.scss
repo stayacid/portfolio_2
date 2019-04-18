@@ -2,6 +2,10 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
+  font-size: $font-size-main;
+  height: 100%;
+  min-width: 300px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 *,
@@ -20,17 +24,8 @@ html {
   color: #fff;
 }
 
-html {
-  font-size: 100%;
-  height: 100%;
-  min-width: 300px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 body {
   font-family: $font-family-main;
-  font-size: $font-size-main;
-  line-height: 1.2;
   font-weight: 300;
   color: $color-main;
   //Flexbox
@@ -61,6 +56,12 @@ body {
 img,
 video {
   max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
   height: auto;
 }
 

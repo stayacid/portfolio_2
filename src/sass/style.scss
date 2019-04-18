@@ -9,7 +9,7 @@
 @import "global/modals/modals";
 
 @import "global/sprite/sprite";
-@import "global/sprite/css-sprite.css";
+//@import "global/sprite/css-sprite.css";
 
 @import "global/base";
 @import "global/header";
@@ -18,5 +18,7 @@
 @import "global/container";
 @import "global/fonts";
 
-@import "pages/index/first-screen";
-
+@import "pages/index/about";
+@import "pages/index/works";
+@import "pages/index/usage";
+@import "pages/index/place";

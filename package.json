@@ -42,7 +42,8 @@
     "gulp-svgmin": "^2.1.0",
     "gulp-uglify": "^3.0.2",
     "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-pngquant": "^7.0.0"
+    "imagemin-pngquant": "^7.0.0",
+    "wowjs": "^1.1.3"
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",

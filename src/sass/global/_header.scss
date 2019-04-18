@@ -11,18 +11,68 @@
 
     a {
       color: #fff;
+      margin: 0 5px;
+      transition: color .2s ease;
+      position: relative;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 1px;
+        width: 0;
+        background: transparent;
+        transition: width .4s ease, left .4s ease;
+      }
+      &:hover {
+        color: #0074D9;
+        &:after {
+          width: 100%;
+          left: 0;
+          background: #0074D9;
+        }
+      }
     }
   }
 
   &-row {
-    margin: 10vh 0;
+    margin: 20px 0;
+    justify-content: center;
+    flex-direction: column;
+    @include mq('tablet') {
+      margin: 100px 0;
+    }
   }
 
-  i {
+  &-icons {
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    @include mq('tablet') {
+      flex-direction: row;
+    }
+    > div {
+      margin: 0 25px 25px;
+    }
+    
+  }
+
+  ion-icon {
     font-size: 3em;
   }
 
   &-col__bold {
     font-weight: 700;
+    display: block;
+    @include mq('tablet') {
+      display: inline;
+    }
+  }
+  br {
+    display: none;
+    @include mq('tablet') {
+      display: block;
+    }
   }
 }
