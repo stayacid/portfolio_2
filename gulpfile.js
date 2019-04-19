@@ -206,8 +206,8 @@ gulp.task('svg', function () {
             run: function ($) {
                 // $('[fill]').removeAttr('fill');
                 // $('[stroke]').removeAttr('stroke');
-                $('[style]').removeAttr('style');
-                $('[style]').removeAttr('opacity');
+                //$('[style]').removeAttr('style');
+                //$('[style]').removeAttr('opacity');
             },
             parserOptions: {
                 xmlMode: false

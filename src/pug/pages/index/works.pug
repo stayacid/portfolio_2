@@ -2,10 +2,11 @@
   .container.wow.zoomIn(style='visibility: visible;')
     h2 Мое портфолио
     p
-      | Здесь представлены некоторые из моих последних работ с кратким описанием, скриншотами и ссылками. Этот сайт разработан с использованием Bootstrap 4 с использованием готового макета
+      | Здесь представлены некоторые из моих последних работ с кратким описанием, скриншотами и ссылками
   .works__grid
+    //Orientir
     .works-card.wow.fadeIn(style='visibility: hidden; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_01.jpg', alt='Сайт ОРИЕНТИР')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_01.jpg', alt='Сайт ОРИЕНТИР')
       .works-card__overlay
         h4 Ориентир
         p Полностью разработан мной на CMS Joomla + аддоны
@@ -14,18 +15,31 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='https://orientir-spb.ru', rel='nofollow', target='_blank')
             ion-icon(name='redo')
-    .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.15s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.15s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_02.jpg', alt='Сайт автостудии')
+    //Metrostroy
+    .works-card.wow.fadeIn(style='visibility: hidden; animation-name: none;')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_02.jpg', alt='Сайт Метростроя')
       .works-card__overlay
-        h4 Мой кузов
-        p Коммерческая разработка на CMS Wordpress. В разработке
+        h4 Метрострой
+        p Верстка нового дизайна Метростроя
         .works-card__links
           a.works-card__links_button.works-card__links_view(data-fancybox='gallery', href='img/preview/preview_2.jpg')
             ion-icon(name='search')
-          a.works-card__links_button.works-card__links_go(href='http://autostudio.ivanzagainov.tk/', rel='nofollow', target='_blank')
+          a.works-card__links_button.works-card__links_go(href='https://metrostroy-spb.ru/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //Мой кузов
+      .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.15s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.15s; animation-name: none;')
+        img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_02.jpg', alt='Сайт автостудии')
+        .works-card__overlay
+          h4 Мой кузов
+          p Коммерческая разработка на CMS Wordpress. В разработке
+          .works-card__links
+            a.works-card__links_button.works-card__links_view(data-fancybox='gallery', href='img/preview/preview_2.jpg')
+              ion-icon(name='search')
+            a.works-card__links_button.works-card__links_go(href='http://autostudio.ivanzagainov.tk/', rel='nofollow', target='_blank')
+              ion-icon(name='redo')
+    //Arma
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.30s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.3s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_09.jpg', alt='Arma')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_09.jpg', alt='Arma')
       .works-card__overlay
         h4 Arma
         p Верстка лендинга
@@ -34,8 +48,9 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='http://arma.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //S&Mitler
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.45s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.45s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_07.jpg', alt='Сайт на Bootstrap 3')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_07.jpg', alt='Сайт на Bootstrap 3')
       .works-card__overlay
         h4 S&Mitler
         p Bootstrap + jQuery
@@ -44,8 +59,9 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='http://smitler.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //Leto
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.6s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.6s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_08.jpg', alt='ЛЕТО')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_08.jpg', alt='ЛЕТО')
       .works-card__overlay
         h4 LETO
         p Анимации на CSS
@@ -54,8 +70,9 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='http://leto.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //Gllacy
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.75s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.75s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_03.jpg', alt='Макет Gllacy')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_03.jpg', alt='Макет Gllacy')
       .works-card__overlay
         h4 Gllacy
         p Верстка по готовому макету. Gulp + Less + JS
@@ -64,8 +81,9 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='http://gllacy.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //Brandly
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='.9s', style='visibility: hidden; animation-duration: 2s; animation-delay: 0.9s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_04.jpg', alt='Макет Brandly')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_04.jpg', alt='Макет Brandly')
       .works-card__overlay
         h4 Brandly
         p Верстка по готовому макету. Brackets + Less + jquery
@@ -74,8 +92,9 @@
             ion-icon(name='search')
           a.works-card__links_button.works-card__links_go(href='http://brandly.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
+    //Grid
     .works-card.wow.fadeIn(data-wow-duration='2s', data-wow-delay='1.05s', style='visibility: hidden; animation-duration: 2s; animation-delay: 1.05s; animation-name: none;')
-      img.img-responsive.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_05.jpg', alt='Сайт на Grid')
+      img.b-lazy(src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', data-src='img/portfolio/portfolio_05.jpg', alt='Сайт на Grid')
       .works-card__overlay
         h4 Grid
         p Grid + Pug + Sass
@@ -85,7 +104,7 @@
           a.works-card__links_button.works-card__links_go(href='http://grid.ivanzagainov.tk/', rel='nofollow', target='_blank')
             ion-icon(name='redo')
     //.works-card
-      img.img-responsive(src='img/portfolio/portfolio_06.jpg', alt='Верстка email')
+      img(src='img/portfolio/portfolio_06.jpg', alt='Верстка email')
       .works-card__overlay
         h4 Email
         p Верстка письма. Gulp + Sass + Pug

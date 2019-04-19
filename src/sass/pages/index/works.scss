@@ -12,22 +12,29 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 10px;
+  margin-top: 50px;
   @include mq('tablet') {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 0;
+    margin-top: 100px;
   }
-
 }
 
 .works-card {
   //background-color: $accent;
-  max-height: 30vh;
+  max-height: 450px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+
+  >img {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+  }
 
   &__overlay {
     position: absolute;
@@ -85,8 +92,6 @@
       font-size: 20px;
     }
   }
-
-
 
   &__links_view {
     margin-right: .2rem;

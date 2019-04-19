@@ -1,14 +1,13 @@
-.footer.py-4
+.footer
   .container
-    .row.justify-content-center
-      .col-12
-        a(href='mailto:stayacid@gmail.com?subject=Вопрос_по_верстке')
-          i.icon.ion-ios-email-outline
-        a(href='tel:+79523520861')
-          i.icon.ion-ios-telephone-outline
-        a(href='https://github.com/stayacid', target='_blank', rel='nofollow')
-          i.icon.ion-social-github-outline
-        a(href='https://t.me/stayacid', target='_blank', rel='nofollow')
-          i.icon.ion-ios-navigate-outline
+    .footer__row
+      a(href='mailto:stayacid@gmail.com?subject=Вопрос_по_верстке')
+        ion-icon(name='mail')
+      a(href='tel:+79523520861')
+        ion-icon(name='call')
+      a(href='https://github.com/stayacid', target='_blank', rel='nofollow')
+        ion-icon(name='logo-github')
+      a(href='https://t.me/stayacid', target='_blank', rel='nofollow')
+        +icon('telegram-logo')
 .top(title='Наверх')
-  i.icon.ion-chevron-up
+  ion-icon(name='arrow-up')
