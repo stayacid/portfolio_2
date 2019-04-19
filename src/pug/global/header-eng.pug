@@ -1,26 +1,26 @@
 //header
 header.header
-  .header-logo
-    a(href='index') Rus
-    a(href='#') Eng
-  .header-row.row
-    .col-md-8.offset-md-2
-      .col
+  .container
+    .header-logo
+      a(href='#') Rus
+      a(href='eng') Eng
+    .header-row.row
+      div
         h1
           | Hello, my name is 
           b.header-col__bold Ivan Zagainov
           br
           | I am web developer
-      .header-row.row
-        .col-md-4.wow.fadeIn(data-wow-delay='.2s')
-          i.icon.ion-social-html5-outline
+      .row.header-icons
+        .wow.fadeIn(data-wow-delay='.2s')
+          ion-icon(name='logo-html5')
           br
           h3 HTML-layout
-        .col-md-4.wow.fadeIn(data-wow-delay='.3s')
-          i.icon.ion-monitor
+        .wow.fadeIn(data-wow-delay='.3s')
+          ion-icon(name='code-working')
           br
           h3 Site developing
-        .col-md-4.wow.fadeIn(data-wow-delay='.4s')
-          i.icon.ion-paintbrush
+        .wow.fadeIn(data-wow-delay='.4s')
+          ion-icon(name='desktop')
           br
           h3 Site supporting
