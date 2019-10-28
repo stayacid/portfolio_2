@@ -1,6 +1,7 @@
 # TO DO
 - нормальную фотку
-- eng
+- replace glexo logo
+- update info in russian version
 
 ## Important
 
