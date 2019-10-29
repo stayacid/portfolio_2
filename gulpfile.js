@@ -28,6 +28,7 @@ gulp.task('pug', function () {
         .pipe(glp.pug({
             pretty: true
         }))
+        .pipe(strip())
         .pipe(gulp.dest('build/'))
         .on('end', browserSync.reload)
 });
@@ -47,9 +48,7 @@ gulp.task('sass', function () {
             })
         }))
         .pipe(glp.sass())
-        .pipe(glp.autoprefixer([
-            'last 10 versions'
-        ]))
+        .pipe(glp.autoprefixer())
         .pipe(gcmq())
         .pipe(glp.csscomb())
         .pipe(glp.csso({
@@ -197,7 +196,7 @@ gulp.task('clear', function () {
 
 gulp.task('svg', function () {
     return gulp.src('src/svg/*.svg')
-        .pipe(glp.svgmin({
+        /*.pipe(glp.svgmin({
             js2svg: {
                 pretty: true
             }
@@ -212,7 +211,7 @@ gulp.task('svg', function () {
             parserOptions: {
                 xmlMode: false
             }
-        }))
+        }))*/
         .pipe(glp.replace('&gt;', '>'))
         .pipe(glp.svgSprite({
             mode: {
