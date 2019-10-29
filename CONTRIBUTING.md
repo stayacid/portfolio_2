@@ -1,7 +1,6 @@
 # TO DO
 - нормальную фотку
-- replace glexo logo
-- update info in russian version
+
 
 ## Important
 
@@ -16,3 +15,5 @@
 - Обновить портфолио
 - Заменить технологии на партнеров
 - Вырезать бутстрап
+- update info in russian version
+- replace glexo logo
