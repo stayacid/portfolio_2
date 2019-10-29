@@ -55,6 +55,7 @@
     "blazy": "^1.8.2",
     "d": "^1.0.1",
     "gulp-replace": "^1.0.0",
+    "gulp-strip-comments": "^2.5.2",
     "imask": "^5.1.9",
     "jquery": "^3.4.1",
     "jquery-validation": "^1.19.1",

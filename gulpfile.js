@@ -9,6 +9,7 @@ var gulp = require('gulp'),
     gulpIf = require('gulp-if'),
     svgcss = require('gulp-svg-css'),
     pngquant = require('imagemin-pngquant'),
+    strip = require('gulp-strip-comments'),
     mozjpeg = require('imagemin-mozjpeg');
 
 /////////////////////////////////////////////////
