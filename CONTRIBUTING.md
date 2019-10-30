@@ -1,6 +1,5 @@
 # TO DO
-- нормальную фотку
-
+- add glasses
 
 ## Important
 
@@ -17,3 +16,4 @@
 - Вырезать бутстрап
 - update info in russian version
 - replace glexo logo
+- нормальную фотку
