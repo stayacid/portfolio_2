@@ -1,17 +1,23 @@
-$(window).scroll(function() {
-    if ($(this).scrollTop() > $(this).height()) {
-        $('.top').addClass('active');
-    } else {
-        $('.top').removeClass('active');
-    }
+const btnScrollToTop = document.querySelector('.top')
+
+window.addEventListener('scroll', showScrollBtn)
+
+function showScrollBtn() {
+  if (window.scrollY > window.innerHeight) {
+    btnScrollToTop.classList.add('active')
+  } else {
+    btnScrollToTop.classList.remove('active')
+  }
+}
+
+$('.top').click(function () {
+  $('html, body').stop().animate({
+    scrollTop: 0
+  });
 });
 
-$('.top').click(function() {
-    $('html, body').stop().animate({scrollTop: 0}, 'slow', 'swing');
-});
-
-(function() {
-    var bLazy = new Blazy();
+(function () {
+  var bLazy = new Blazy();
 })();
 
 new WOW().init();
