@@ -1,3 +1,4 @@
+/// button scroll to top
 const btnScrollToTop = document.querySelector('.top')
 
 window.addEventListener('scroll', showScrollBtn)
@@ -16,8 +17,23 @@ $('.top').click(function () {
   });
 });
 
+// lazy load for image
 (function () {
   var bLazy = new Blazy();
 })();
 
+// wow animation
 new WOW().init();
+
+//glasses animation
+let block = document.querySelector('.glasses')
+let controller = new ScrollMagic.Controller();
+
+let scene = new ScrollMagic.Scene({
+    duration: 300
+  })
+  .setTween(block, {
+    top: '30vh',
+  })
+  .setPin(block, {pushFollowers: false})
+  .addTo(controller);

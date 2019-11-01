@@ -2,6 +2,14 @@
   min-height: 25vh;
   color: #fff;
   background: $bgblue url('../img/header_mine.jpg') no-repeat center top fixed;
+  position: relative;
+
+  .glasses {
+    position: absolute;
+    top: -100%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
 
   &-logo {
     text-align: right;
