@@ -51,7 +51,7 @@
 
     p {
       font-size: 0.9em;
-      color: #fff;
+      color: $white;
     }
 
     p,
@@ -78,14 +78,14 @@
 
   &_button {
     display: inline-block;
-    border: 1px solid #fff;
+    border: 1px solid $white;
     padding: .3rem 1.75rem;
-    color: #fff;
+    color: $white;
     transition: all .5s ease-out;
     cursor: pointer;
     margin: 0 5px;
     &:hover {
-      color: #fff;
+      color: $white;
       background-color: #222;
     }
     ion-icon {

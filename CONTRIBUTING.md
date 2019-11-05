@@ -1,5 +1,5 @@
 # TO DO
-- add glasses
+- fix glasses on mobile
 
 ## Important
 

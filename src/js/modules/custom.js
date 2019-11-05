@@ -30,10 +30,9 @@ let block = document.querySelector('.glasses')
 let controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
-    duration: 300
+    duration: 150
   })
   .setTween(block, {
-    top: '30vh',
+    top: '31vh',
   })
-  .setPin(block, {pushFollowers: false})
-  .addTo(controller);
+  .addTo(controller);//

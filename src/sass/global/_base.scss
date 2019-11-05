@@ -21,7 +21,7 @@ html {
 
 ::selection {
   background-color: $accent;
-  color: #fff;
+  color: $white;
 }
 
 body {
@@ -101,4 +101,9 @@ a {
 button {
   border: none;
   cursor: pointer;
+}
+
+main {
+  position: relative;
+  z-index: 2; // to hide glasses
 }
