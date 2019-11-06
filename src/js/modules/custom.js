@@ -33,6 +33,6 @@ let scene = new ScrollMagic.Scene({
     duration: 150
   })
   .setTween(block, {
-    top: '31vh',
+    top: '280px',
   })
   .addTo(controller);//

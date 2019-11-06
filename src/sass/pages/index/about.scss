@@ -1,19 +1,19 @@
 .about {
   padding: 50px 0;
   background-color: $white;
-  @include mq('tablet') {
+  @include mq('768') {
     padding: 100px 0;
   }
 
   &__row {
     flex-direction: column;
-    @include mq('tablet') {
+    @include mq('768') {
       flex-direction: row;
       justify-content: space-between;
     }
     >div {
       margin-bottom: 50px;
-      @include mq('tablet') {
+      @include mq('768') {
         max-width: 45%;
       }
       

@@ -5,11 +5,11 @@
   padding: 0 20px;
   margin: auto; 
 
-  @include mq('tablet') {
+  @include mq('768') {
     padding: 0 50px;
   }
   
-  @include mq('laptop') {
+  @include mq('1280') {
     padding: 0 90px;
   }
 

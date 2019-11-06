@@ -1,5 +1,5 @@
 # TO DO
-- fix glasses on mobile
+- fix glasses on mobile (gsasses moves lower)
 
 ## Important
 

@@ -7,10 +7,16 @@
   .glasses {
     position: fixed;
     top: -100px;
-    left: 49%;
-    transform: translate(-50%, -50%);
+    left: -4vw;
+    width: 100%;
     @include mq('768') {
-      
+      left: -1.5vw;
+    }
+    @include mq('1280') {
+      left: -1vw;
+    }
+    @include mq('1920') {
+      left: -0.7vw;
     }
   }
 
@@ -54,7 +60,7 @@
     justify-content: center;
     flex-direction: column;
 
-    @include mq('tablet') {
+    @include mq('768') {
       margin: 100px 0;
     }
   }
@@ -64,7 +70,7 @@
     margin-top: 50px;
     flex-direction: column;
 
-    @include mq('tablet') {
+    @include mq('768') {
       flex-direction: row;
     }
 
@@ -82,7 +88,7 @@
     font-weight: 700;
     display: block;
 
-    @include mq('tablet') {
+    @include mq('768') {
       display: inline;
     }
   }
@@ -90,7 +96,7 @@
   br {
     display: none;
 
-    @include mq('tablet') {
+    @include mq('768') {
       display: block;
     }
   }
