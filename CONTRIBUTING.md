@@ -1,5 +1,5 @@
 # TO DO
-- fix glasses on mobile (gsasses moves lower)
+- remove ion icons
 
 ## Important
 
@@ -17,3 +17,4 @@
 - update info in russian version
 - replace glexo logo
 - нормальную фотку
+- fix glasses on mobile (gsasses moves lower)
